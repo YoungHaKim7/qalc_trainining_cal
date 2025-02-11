@@ -2,7 +2,7 @@
 
 <hr />
 
-# qalc_traininin_cal
+# qalc_trainining_cal
 - https://qalculate.github.io/manual/qalc.html
 - https://github.com/Qalculate
 
