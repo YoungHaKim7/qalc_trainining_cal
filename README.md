@@ -12,7 +12,7 @@
 - 한글 유니코드 조회
 - https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
 
-```
+```rs
  fn main() {
     let a = "한";
     // Get the first character (since "한" is a single character)
