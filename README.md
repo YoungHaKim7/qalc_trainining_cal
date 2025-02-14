@@ -7,6 +7,42 @@
 - https://github.com/Qalculate
 - https://marketplace.visualstudio.com/items?itemName=nortakales.vs-qalc
 
+<hr />
+
+- 한글 유니코드 조회
+- https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
+
+```
+ fn main() {
+    let a = "한";
+    // Get the first character (since "한" is a single character)
+    let char = a.chars().next().unwrap();
+    // Print the Unicode code point in hexadecimal
+    println!("한 : Unicode = U+{:04X}", char as u32);
+}
+
+// Result
+// 한 : Unicode = U+D55C
+
+
+fn main() {
+    let a = "한";
+    let bytes = a.as_bytes();
+    let hex_values: Vec<String> = bytes.iter().map(|b| format!("{:02x}", b)).collect();
+    println!("한글 unicode = {:?}", hex_values);
+}
+
+// Result
+// 한글 unicode = ["ed", "95", "9c"]
+
+fn main() {
+    let a = "한";
+    let bytes = a.as_bytes();
+    println!("한글 unicode = {:?}", bytes);
+}
+// 한글 unicode = [237, 149, 156]
+```
+
 # shell에서 쓰는 방법
 
 - https://github.com/Qalculate/libqalculate/issues/149
