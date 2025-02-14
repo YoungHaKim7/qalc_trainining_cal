@@ -5,6 +5,7 @@
 # qalc_trainining_cal
 - https://qalculate.github.io/manual/qalc.html
 - https://github.com/Qalculate
+- https://marketplace.visualstudio.com/items?itemName=nortakales.vs-qalc
 
 # shell에서 쓰는 방법
 
