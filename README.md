@@ -60,6 +60,11 @@ $ qalc "simple(100 kWh to watt)"
 # qalc 예시
 
 ```bash
+# basic sec
+> 500ms to second
+
+500 milliseconds = 0.5 s
+
 # Basic functions and operators
 
 sqrt 4 = sqrt(4)
