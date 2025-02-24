@@ -10,7 +10,7 @@
 <hr />
 
 - 한글 유니코드 조회
-- https://play.rust-lang.org/?version=stable&mode=debug&edition=2021
+- https://play.rust-lang.org/?version=stable&mode=debug&edition=2024
 
 ```rs
  fn main() {
